@@ -4,6 +4,10 @@
 #
 # Copyright (c) 2015 The Authors, All Rights Reserved.
 
-log 'c' do
-  message lazy { "c: #{node['an_attribute']}" }
+
+ruby_block 'c' do
+  block do
+    puts "cA: #{node['an_attribute']}"
+    puts "cB: #{node['an_attribute_derived']}"
+  end
 end
