@@ -1,0 +1,7 @@
+name 'b'
+maintainer 'The Authors'
+maintainer_email 'you@example.com'
+license 'all_rights'
+description 'Installs/Configures b'
+long_description 'Installs/Configures b'
+version '0.1.0'

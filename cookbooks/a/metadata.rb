@@ -1,0 +1,9 @@
+name 'a'
+maintainer 'The Authors'
+maintainer_email 'you@example.com'
+license 'all_rights'
+description 'Installs/Configures a'
+long_description 'Installs/Configures a'
+version '0.1.0'
+
+depends 'b'
